@@ -1,0 +1,53 @@
+.card-cont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1%;
+}
+
+.card-cont2 {
+  border: 1px solid violet;
+  box-shadow: 0px 0px 20px violet;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.card-cont2 div img {
+  margin-top: 10px;
+}
+
+.card-txt {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+
+  width: 100%;
+}
+
+.card-txt h2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.card-txt a p {
+  color: white;
+}
+
+.card-txt a p:hover {
+  color: violet;
+}

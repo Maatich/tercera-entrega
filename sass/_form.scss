@@ -1,0 +1,213 @@
+/*********************************************************************************************/
+/* FORMULARIOS *******************************************************************************/
+/*********************************************************************************************/
+.form-section {
+    width: 50%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+    .form-contenedor div input {
+        font-family: 'Bebas Neue', cursive;
+        box-shadow: 0px 0px 10px violet;
+        border: 1px solid violet;
+        color: white;
+        background-color: black;
+    }
+
+    .form-contenedor div label {
+        font-family: 'Bebas Neue', cursive;
+        box-shadow: 0px 0px 10px violet;
+        border: 1px solid violet;
+        color: violet;
+        background-color: black;
+
+    }
+
+    .form-contenedor div textarea {
+        font-family: 'Bebas Neue', cursive;
+        box-shadow: 0px 0px 10px violet;
+        border: 1px solid violet;
+        color: white;
+        background-color: black;
+
+    }
+}
+
+.form-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 26%;
+}
+
+input {
+    border: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: #111;
+}
+
+.textarea {
+    border: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: #111;
+}
+
+label {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.contenedor-chico {
+    background-color: black;
+    color: violet;
+    border: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+    padding: 80px;
+
+}
+
+.parrafo-3 {
+    /*font-family: 'Cute Font', cursive;*/
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    flex-flow: row wrap;
+    color: white;
+}
+
+.parrafo-4 {
+    /*font-family: 'Cute Font', cursive;*/
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    flex-flow: row wrap;
+    color: white;
+    width: 100%;
+}
+
+.form-conte {
+    width: 100%;
+    height: auto;   
+    gap: 2%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-conte-input {
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-input {
+    width: 100%;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-boton {
+    padding: 20px;
+    width: 40%;
+    height: auto;
+    border: 1px solid violet;
+    background-color: black;
+    color: violet;
+    box-shadow: 0px 0px 20px violet;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form-boton a{
+    background-color: black;
+    color: violet;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-boton a:hover{
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor-contacto {
+    background-color: black;
+    color: violet;
+    border: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.contenedor-contacto .contacto-redes {
+    margin-left: 6px;
+}
+
+.contenedor-contacto h1 {
+    color: violet;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+}
+
+.contenedor-contacto p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10px;
+}
+
+.contacto-minicont {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+}
+
+.contacto-text{
+    margin-top: 4px;
+}
+
+.section-form {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+
+.formin {
+    padding: 10px;
+  }
+  
+.formin input {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #111111;
+    padding: 5px;
+    font-family: 'Koulen', cursive;
+    width: 300px;
+    color: violet;
+}
+  
+.formin textarea {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0a0a0a;
+    font-family: 'Koulen', cursive;
+    width: 50%;
+    color: violet;
+}
+  

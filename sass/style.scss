@@ -1,0 +1,108 @@
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/*************************************************** FINGER *******************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/* RESETEO ********************************************************************************************************/
+* {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;   
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    background-color: 111;
+}
+
+.carrru {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.conteiner-products {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 2%;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.boxes-card {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-prod {
+    border: 2px solid violet;
+    box-shadow: 0px 0px 15px blueviolet;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    opacity: 1.5;
+}
+.titulosprod {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Sniglet', cursive;
+}
+.cuerpoprod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+ .cuerpoprod img {
+    padding: 10px 10px;
+    width: 100%;
+ }
+
+
+.parrafoprod {
+    align-content: center;
+    text-align: center;
+}
+
+@import 'medias';
+@import 'navegadores';
+@import 'encabezados';
+@import 'effects';
+@import 'nuestrosclientes';
+@import 'footer';
+@import 'promociones';
+@import 'botoneragreendesplegable';
+@import 'form';
+@import 'modals';
+@import 'cards';
+@import 'inicio';
+
+

@@ -1,0 +1,56 @@
+/*********************************************************************************************/
+/* BOTONES VERDES DESPLEGABLES ***************************************************************/
+/*********************************************************************************************/
+.collapsible {
+    font-family: 'Bebas Neue', cursive;
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: all 1s;
+}
+.text-button{
+    text-align: center;
+}
+  
+.active, .collapsible:hover {
+    background-color: black;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+}
+  
+.content {   
+    display: none;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    border: 1px solid greenyellow;
+    padding: 30px;
+}
+
+.content-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.contenedor-botonesverdes {
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+main{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}

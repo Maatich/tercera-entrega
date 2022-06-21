@@ -1,0 +1,1862 @@
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/*************************************************** FINGER *******************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/* RESETEO ********************************************************************************************************/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  background-color: 111;
+}
+
+/*********************************************************************************************/
+/* VISTAS DESKTOP - ANDROID  *****************************************************************/
+/*********************************************************************************************/
+/* ESCRITORIO ********************************************************************************/
+@media screen and (min-width: 550px) {
+  .navegadorgreenandleft {
+    display: block;
+  }
+  #click {
+    display: block;
+  }
+  .navandroid {
+    display: none;
+  }
+  .clientes-title {
+    display: block;
+  }
+  .pop-mob {
+    display: block;
+  }
+  .carrucel {
+    display: block;
+  }
+  .footer-mob {
+    display: none;
+  }
+  .pop-mobs {
+    display: block;
+  }
+  .parrafo-3 {
+    /*font-family: 'Cute Font', cursive;*/
+    padding: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 100%;
+    color: white;
+  }
+  .parrafo-3 a {
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    color: greenyellow;
+  }
+  .parrafo-3 a:hover {
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    color: black;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: white;
+  }
+  .metodo-pagos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    border-radius: 10px;
+    gap: 1%;
+    width: 80%;
+  }
+  .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 3%;
+  }
+  .form-contenedor {
+    width: 70%;
+  }
+  input {
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: #111;
+  }
+  textarea {
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: #111;
+  }
+  label {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+  .collapsible2 {
+    width: 49%;
+  }
+  .collapsible-flex {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 15px;
+  }
+  .contenedor-chico2 {
+    background-color: black;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 0px;
+  }
+  .port-list {
+    width: 100%;
+    border: 1px solid greenyellow;
+  }
+  .port-list li {
+    background-color: black;
+    color: white;
+  }
+  .contenedor-section {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/****************************************************************/
+/* ANDROID ******************************************************/
+@media screen and (max-width: 550px) {
+  .navegadorgreenandleft {
+    display: none;
+  }
+  #click {
+    display: none;
+  }
+  .navandroid {
+    display: block;
+  }
+  .clientes-title {
+    display: none;
+  }
+  .pop-mob {
+    display: none;
+  }
+  .carrucel {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-mob {
+    display: block;
+    width: 100%;
+  }
+  .section-off {
+    display: none;
+  }
+  #promociones {
+    display: none;
+  }
+  #promociones2 {
+    display: none;
+  }
+  .collapsible .content .contenedor-botonesverdes .content-flex img {
+    display: none;
+  }
+  .content-flex img {
+    display: none;
+  }
+  .contacto-mob {
+    display: block;
+  }
+  .pop-mobs {
+    display: none;
+  }
+  .parrafo-3 {
+    /*font-family: 'Cute Font', cursive;*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 100%;
+    color: white;
+  }
+  .parrafo-3 a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    color: greenyellow;
+  }
+  .parrafo-3 a:hover {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    color: black;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: white;
+  }
+  .metodo-pagos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    border-radius: 10px;
+    gap: 1%;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 6%;
+  }
+  .form-contenedor {
+    width: 100%;
+  }
+  input {
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: #111;
+  }
+  textarea {
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: #111;
+  }
+  label {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+  }
+  .collapsible-flex {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 15px;
+  }
+  .contenedor-chico2 {
+    background-color: black;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+            box-shadow: 0px 0px 20px greenyellow;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+  .port-list {
+    width: 100%;
+    border: 1px solid greenyellow;
+  }
+  .port-list li {
+    background-color: black;
+    color: white;
+  }
+  .collapsible2 {
+    width: 100%;
+  }
+  .contenedor-section {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*********************************************************************************************/
+/* NAVEGADORES  ******************************************************************************/
+/*********************************************************************************************/
+/* NAVEGADOR - DESKTOP ***********************************************************************/
+.navbargreenup {
+  width: 100%;
+  height: 80px;
+  background-color: violet;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.internos {
+  padding: 10px;
+  margin-top: -6px;
+  border-bottom-color: black;
+}
+
+.internos-img {
+  padding: 10px;
+  margin-top: -6px;
+  border-bottom-color: black;
+}
+
+/****************************************************************/
+/* FINGER NOMBRE ************************************************/
+.finbtn {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: black;
+  padding: 15px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.finbtn:hover {
+  background-color: black;
+  color: violet;
+  padding: 15px;
+}
+
+.logo2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+.finbtn2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: black;
+  padding: 15px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.finbtn2:hover {
+  background-color: black;
+  color: violet;
+  padding: 15px;
+}
+
+/****************************************************************/
+/* NAVEGADOR LEFT ***********************************************/
+.navgreen-nomove {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: violet;
+  top: 0;
+  z-index: 999;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.nav-left {
+  margin: 20px;
+  margin-top: 18px;
+  width: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.menu-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: greenyellow;
+}
+
+.left-btn {
+  font-size: 20px;
+  margin-top: 13%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.left-btn a {
+  font-size: 20px;
+}
+
+.redes {
+  font-family: 'Bebas Neue', cursive;
+  color: greenyellow;
+  font-size: 25px;
+  background-color: greenyellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  height: 80px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.redes p {
+  margin-top: 8%;
+  color: greenyellow;
+}
+
+.redes p:hover {
+  margin-top: 8%;
+  text-shadow: 0px 0px 10px greenyellow;
+}
+
+.redes img {
+  padding: 0px;
+}
+
+.redes2 {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.left-navgreen {
+  margin-top: 10px;
+  background-color: greenyellow;
+  height: 102px;
+}
+
+.left-navgreen a img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*********************************************************************************************/
+/* NAVEGADOR - ANDROID ***********************************************************************/
+.navgreen {
+  background-color: greenyellow;
+  width: 100.1%;
+  height: auto;
+  margin: -1px;
+}
+
+.navbarborder {
+  border-bottom: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+}
+
+.navgreen-nomove {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.menu-txt {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 20px;
+}
+
+.menu-txt:hover {
+  font-family: 'Bebas Neue', cursive;
+  color: greenyellow;
+}
+
+.login-text {
+  margin-left: 0px;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 1.5px;
+}
+
+.navbarborder {
+  border-bottom: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+}
+
+.conteinernavmob {
+  font-family: 'Bebas Neue', cursive;
+  color: greenyellow;
+  font-size: 20px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  height: 60px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.conteinernavmob a {
+  color: white;
+}
+
+.conteinernavmob p:hover {
+  color: greenyellow;
+  text-shadow: 0px 0px 10px greenyellow;
+}
+
+.conteinernavmob img {
+  padding: 0px;
+}
+
+.btnmenuleft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*********************************************************************************************/
+/* ENCABEZADOS *******************************************************************************/
+/*********************************************************************************************/
+/* BANNERS ***********************************************************************************/
+.bg1 {
+  background-image: url(../img/bk-fin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.bg2 {
+  background-image: url(../img/bk-fin2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.bg3 {
+  background-image: url(../img/bk-fin3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.bg4 {
+  background-image: url(../img/bk-fin4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.bg-bar {
+  background-image: url(../img/bg-bar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner1 {
+  background-image: url(../img/wall-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner2 {
+  background-image: url(../img/content-wl2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner3 {
+  background-image: url(../img/content-wl3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner4 {
+  background-image: url(../img/content-wl4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner5 {
+  background-image: url(../img/content-wl5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner6 {
+  background-image: url(../img/content-wl.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner7 {
+  background-image: url(../img/wll-mini-cont.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner8 {
+  background-image: url(../img/wll-mini-cont2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner9 {
+  background-image: url(../img/wall3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner10 {
+  background-image: url(../img/wall4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner11 {
+  background-image: url(../img/wall5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner12 {
+  background-image: url(../img/wall2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.banner13 {
+  background-image: url(../img/wall4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/*********************************************************************************************/
+.cabecera {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.cabecera-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  padding: 30px;
+  background-color: #adff2f;
+  color: black;
+}
+
+.carrucel {
+  width: 60%;
+}
+
+/* EFECTOS RANDOMS **********************************************/
+/* BRILLO BORDES IMG ********************************************/
+.borde-img {
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+}
+
+/****************************************************************/
+/* TEXTO MENU LEFT **********************************************/
+.text-slider {
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+}
+
+.text-slider2 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+/****************************************************************/
+/* SCROLL BAR GREeN *********************************************/
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: black;
+  border-left: 1px solid greenyellow;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: greenyellow;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 40px greenyellow;
+          box-shadow: 0px 0px 40px greenyellow;
+}
+
+/****************************************************************/
+/* ESCALADO DE IMG **********************************************/
+.scale {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  margin: 0 auto;
+}
+
+.scale:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.scale2 {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  margin: 0 auto;
+}
+
+.scale2:hover {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+/****************************************************************/
+/****************************************************************/
+/*********************************************************************************************/
+/* NUESTRO CLIENTES DICEN ********************************************************************/
+/*********************************************************************************************/
+/* BANNERS ***********************************************************************************/
+.titles {
+  width: 100%;
+  height: 80px;
+  background-color: greenyellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+.populares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 30px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 50px;
+}
+
+.populares img {
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+}
+
+/*********************************************************************************************/
+/*********************************************************************************************/
+/* FOOTER DESKTOP ****************************************************************************/
+/*********************************************************************************************/
+/* ESCRITORIO ********************************************************************************/
+.title-footer {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: left;
+  padding: 12px;
+}
+
+.footer-img {
+  gap: 10px;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 2000px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding: 10px 10px;
+  margin-top: -2%;
+}
+
+.footer {
+  background-color: greenyellow;
+  height: 400px;
+}
+
+.footer-logo {
+  font-family: 'Bebas Neue', cursive;
+  background-color: black;
+  font-size: 50px;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 20px;
+  color: greenyellow;
+}
+
+.footer-logo a {
+  color: greenyellow;
+}
+
+.parrafo-2 {
+  /*font-family: 'Cute Font', cursive;*/
+  padding: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  color: black;
+}
+
+.parrafo-promo {
+  padding: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  color: white;
+}
+
+.footer-cont .parrafo-mob a:hover {
+  color: greenyellow;
+}
+
+.contenedor-ext {
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* HORIZONTAL */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.footer-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding: 10px 10px;
+  margin-top: -2%;
+}
+
+/*********************************************************************************************/
+/* PROMOCIONES *******************************************************************************/
+/*********************************************************************************************/
+.section-promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 50px;
+  color: white;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.conteiner-promociones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  width: 40%;
+  padding: 20px;
+}
+
+.parrafo-promo {
+  padding: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  color: white;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 10px;
+  width: 100%;
+}
+
+.section-off {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/*********************************************************************************************/
+/* BOTONES VERDES DESPLEGABLES ***************************************************************/
+/*********************************************************************************************/
+.collapsible {
+  font-family: 'Bebas Neue', cursive;
+  background-color: greenyellow;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.text-button {
+  text-align: center;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  border: 1px solid greenyellow;
+  padding: 30px;
+}
+
+.content-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contenedor-botonesverdes {
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+/*********************************************************************************************/
+/* FORMULARIOS *******************************************************************************/
+/*********************************************************************************************/
+.form-section {
+  width: 50%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+.form-section .form-contenedor div input {
+  font-family: 'Bebas Neue', cursive;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  border: 1px solid greenyellow;
+  color: white;
+  background-color: black;
+}
+
+.form-section .form-contenedor div label {
+  font-family: 'Bebas Neue', cursive;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+  background-color: black;
+}
+
+.form-section .form-contenedor div textarea {
+  font-family: 'Bebas Neue', cursive;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  border: 1px solid greenyellow;
+  color: white;
+  background-color: black;
+}
+
+.form-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 26%;
+}
+
+input {
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  font-family: 'Bebas Neue', cursive;
+  width: 100%;
+  background-color: #111;
+}
+
+.textarea {
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  font-family: 'Bebas Neue', cursive;
+  width: 100%;
+  background-color: #111;
+}
+
+label {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.contenedor-chico {
+  background-color: black;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.parrafo-3 {
+  /*font-family: 'Cute Font', cursive;*/
+  padding: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  color: white;
+}
+
+.parrafo-4 {
+  /*font-family: 'Cute Font', cursive;*/
+  padding: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  color: white;
+  width: 100%;
+}
+
+.form-conte {
+  width: 100%;
+  height: auto;
+  gap: 2%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.form-conte-input {
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.form-input {
+  width: 100%;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.form-boton {
+  padding: 20px;
+  width: 40%;
+  height: auto;
+  border: 1px solid greenyellow;
+  background-color: black;
+  color: greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  font-family: 'Bebas Neue', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.form-boton a {
+  background-color: black;
+  color: greenyellow;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.form-boton a:hover {
+  background-color: black;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor-contacto {
+  background-color: black;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contenedor-contacto .contacto-redes {
+  margin-left: 6px;
+}
+
+.contenedor-contacto h1 {
+  color: greenyellow;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px;
+}
+
+.contenedor-contacto p {
+  color: white;
+  font-size: 15px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 10px;
+}
+
+.contacto-minicont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-left: 10px;
+}
+
+.contacto-text {
+  margin-top: 4px;
+}
+
+.section-form {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+/*********************************************************************************************/
+/* MODALS ************************************************************************************/
+/*********************************************************************************************/
+.modal-contenedor {
+  font-family: 'Bebas Neue', cursive;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+  background-color: black;
+  color: greenyellow;
+}
+
+.modal-bg {
+  background-color: black;
+}
+
+.modal-style {
+  font-family: 'Bebas Neue', cursive;
+  background-color: black;
+  color: white;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 10px greenyellow;
+          box-shadow: 0px 0px 10px greenyellow;
+}
+
+/******************************************************************************************************************/
+.card-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 1%;
+}
+
+.card-cont2 {
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.card-cont2 div img {
+  margin-top: 10px;
+}
+
+.card-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  width: 100%;
+}
+
+.card-txt h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+.card-txt a p {
+  color: white;
+}
+
+.card-txt a p:hover {
+  color: greenyellow;
+}
+
+/*********************************************************************************************/
+/* INICIO ************************************************************************************/
+/*********************************************************************************************/
+.contenedor-section button {
+  font-family: 'Bebas Neue', cursive;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  font-size: 30px;
+  border-radius: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenedor-section button:hover {
+  color: greenyellow;
+  font-family: 'Bebas Neue', cursive;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 0px 0px 20px greenyellow;
+          box-shadow: 0px 0px 20px greenyellow;
+  font-size: 30px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.contenedor-section div div {
+  background-color: black;
+  border: 1px solid greenyellow;
+  border-radius: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.botonverde-contenedor-cont {
+  font-family: 'Bebas Neue', cursive;
+  width: 100%;
+  background-color: black;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.botonera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=style.css.map */

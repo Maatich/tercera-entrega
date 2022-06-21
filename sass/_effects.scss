@@ -1,0 +1,52 @@
+/* EFECTOS RANDOMS **********************************************/
+/* BRILLO BORDES IMG ********************************************/
+.borde-img {
+    box-shadow: 0px 0px 20px violet;
+}
+/****************************************************************/
+/* TEXTO MENU LEFT **********************************************/
+.text-slider {
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+
+.text-slider2 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+/****************************************************************/
+/* SCROLL BAR GREeN *********************************************/
+body::-webkit-scrollbar {
+	width: 7px;
+    background-color: black;
+    border-left: 1px solid violet;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: violet;
+	border-radius: 5px;
+    box-shadow: 0px 0px 40px violet;
+}
+/****************************************************************/
+/* ESCALADO DE IMG **********************************************/
+.scale {
+    transform: scale(1, 1);
+    margin: 0 auto;
+}
+
+.scale:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
+
+.scale2 {
+    transform: scale(1, 1);
+    margin: 0 auto;
+}
+
+.scale2:hover{
+    transform: scale(2, 2);
+    transition: all 1s;
+}
+/****************************************************************/
+/****************************************************************/

@@ -1,0 +1,52 @@
+/*********************************************************************************************/
+/* INICIO ************************************************************************************/
+/*********************************************************************************************/
+.contenedor-section button{
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+    font-size: 30px;
+    border-radius: 0px;
+    transition: all 1s;
+    padding: 10px;
+    display: flex;
+}
+
+.contenedor-section button:hover{
+    color: violet;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+    font-size: 30px;
+    transition: all 1s;
+}
+
+.contenedor-section div div {
+    background-color: black;
+    border: 1px solid violet;
+    border-radius: 0px;
+    transition: all 1s;
+}
+
+.botonverde-contenedor-cont {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+.botonera {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,365 @@
+/*********************************************************************************************/
+/* VISTAS DESKTOP - ANDROID  *****************************************************************/
+/*********************************************************************************************/
+/* ESCRITORIO ********************************************************************************/
+@media screen and (min-width: 550px) {
+    .navegadorgreenandleft{
+        display: block;
+    }
+
+    #click {
+        display: block;
+    }
+
+    .navandroid {
+        display: none;
+    }
+
+    .clientes-title {
+        display: block;
+    }
+
+    .pop-mob {
+        display: block;
+    }
+
+    .carrucel{
+        display: block;
+    }
+
+    .footer-mob {
+        display: none;
+    }
+
+    .pop-mobs {
+        display: block;
+    }
+
+    .parrafo-3 {
+        /*font-family: 'Cute Font', cursive;*/
+        padding: 26px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        flex-flow: row wrap;
+        width: 100%;
+        color: white;
+        a {
+            padding: 5px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 10px;
+            flex-flow: row wrap;
+            color: violet;
+        }
+        a:hover {
+            padding: 5px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 10px;
+            flex-flow: row wrap;
+        
+            color: black;
+            transition: all 1s;
+            background-color: white;
+        }
+    }
+
+    .metodo-pagos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        border-radius: 10px;
+        gap: 1%;
+        width: 80%;
+    }
+
+    .logo {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        padding: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-right: 3%;
+    }
+
+    .form-contenedor {
+        width: 70%;
+    }
+
+    input {
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        font-family: 'Bebas Neue', cursive;
+        width: 100%;
+        background-color: #111;
+    }
+    
+    textarea {
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        font-family: 'Bebas Neue', cursive;
+        width: 100%;
+        background-color: #111;
+    }
+    
+    label {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+
+    .collapsible2 {
+        width: 49%;
+    }
+
+    .collapsible-flex {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        gap: 15px;
+    }
+
+    .contenedor-chico2 {
+        background-color: black;
+        color: violet;
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+
+    .port-list {
+        width: 100%;
+        border: 1px solid violet;
+    }
+
+    .port-list li {
+        background-color: black;
+        color: white;
+    }
+
+    
+
+
+
+
+
+
+    .contenedor-section {
+        background-color: black;
+        color: violet;
+        font-family: 'Bebas Neue', cursive;
+        padding: 40px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+    }
+}
+/****************************************************************/
+/* ANDROID ******************************************************/
+@media screen and (max-width: 550px) { 
+
+
+    .navegadorgreenandleft{
+        display: none;
+    }
+
+    #click {
+        display: none;
+    }
+
+    .navandroid {
+        display: block;
+    }
+    
+    .clientes-title {
+        display: none;
+    }
+
+    .pop-mob {
+        display: none;
+    }
+
+    .carrucel{
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-mob {
+        display: block;
+        width: 100%;
+    }
+
+    .section-off {
+        display: none;
+    }
+
+    .section-off2 {
+        display: none;
+    }
+
+    #promociones{
+        display: none;
+    }
+
+    #promociones2{
+        display: none;
+    }
+    
+    .collapsible .content .contenedor-botonesverdes .content-flex img{
+        display: none;
+    }
+
+    .content-flex img {
+        display: none;
+    }
+
+    .contacto-mob {
+        display: block;
+    }
+
+    .pop-mobs {
+        display: none;
+    }
+
+    #imgpubli {
+        display: none;
+    }
+
+    .parrafo-3 {
+        /*font-family: 'Cute Font', cursive;*/
+
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        flex-flow: row wrap;
+        width: 100%;
+        color: white;
+        a {
+
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            flex-flow: row wrap;
+            color: violet;
+        }
+        a:hover {
+
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            flex-flow: row wrap;
+            color: black;
+            transition: all 1s;
+            background-color: white;
+        }
+    }
+
+    .metodo-pagos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        border-radius: 10px;
+        gap: 1%;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .logo {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        padding: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-right: 6%;
+    }
+
+    .form-contenedor {
+        width: 100%;
+    }
+
+    input {
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        font-family: 'Bebas Neue', cursive;
+        width: 100%;
+        background-color: #111;
+    }
+    
+    textarea {
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        font-family: 'Bebas Neue', cursive;
+        width: 100%;
+        background-color: #111;
+    }
+    
+    label {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 15px;
+    }
+
+    .collapsible-flex {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        gap: 15px;
+    }
+
+    .contenedor-chico2 {
+        background-color: black;
+        color: violet;
+        border: 1px solid violet;
+        box-shadow: 0px 0px 20px violet;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+
+    .port-list {
+        width: 100%;
+        border: 1px solid violet;
+    }
+
+    .port-list li {
+        background-color: black;
+        color: white;
+    }
+
+    .collapsible2 {
+        width: 100%;
+    }
+
+
+
+
+    .contenedor-section {
+        background-color: black;
+        color: violet;
+        font-family: 'Bebas Neue', cursive;
+        padding: 40px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: auto;
+    }
+}

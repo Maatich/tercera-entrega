@@ -1,0 +1,261 @@
+/*********************************************************************************************/
+/* NAVEGADORES  ******************************************************************************/
+/*********************************************************************************************/
+/* NAVEGADOR - DESKTOP ***********************************************************************/
+.navbargreenup {
+    width: 100%;
+    height: 80px;
+    background-color: violet;
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.internos {
+    padding: 10px;
+    margin-top: -6px;
+    border-bottom-color: black;
+
+}
+
+.internos-img {
+    padding: 10px;
+    margin-top: -6px;
+    border-bottom-color: black;
+}
+/****************************************************************/
+/* FINGER NOMBRE ************************************************/
+.finbtn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+    transition: all 1s;
+}
+.finbtn:hover {
+    background-color: black;
+    color: violet;
+    padding: 15px;
+}
+
+.logo2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 30px;
+}
+.finbtn2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+    transition: all 1s;
+}
+.finbtn2:hover {
+    background-color: black;
+    color: violet;
+    padding: 15px;
+}
+/****************************************************************/
+/* NAVEGADOR LEFT ***********************************************/
+.navgreen-nomove {
+    position: sticky;
+    background-color: violet;
+    top: 0;
+    z-index: 999;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: #f1f1f1;
+    }
+    .closebtn {
+        position: absolute;
+        top: 1%;
+        right: 10%;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+}
+
+.nav-left {
+
+    margin: 20px;
+    margin-top: 18px;
+    width: 4%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: violet;
+}
+
+.left-btn {
+    font-size: 20px;
+    margin-top: 13%;
+    font-family: 'Bebas Neue', cursive;
+    a {
+        font-size: 20px;
+    }
+}
+
+.redes {
+    font-family: 'Bebas Neue', cursive;
+    color: violet;
+    font-size: 25px;
+    background-color: violet;
+    display: flex;
+    box-shadow: 0px 0px 10px violet;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    p {
+        margin-top: 8%;
+        color: violet;
+    }
+    p:hover {
+        margin-top: 8%;
+        text-shadow: 0px 0px 10px violet;
+    }
+    img {
+        padding: 0px;
+    }
+}
+
+.redes2 {
+    background-color: black;
+    display: flex;
+    box-shadow: 0px 0px 10px violet;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-navgreen {
+    margin-top: 10px;
+    background-color: violet;
+    height: 102px;
+    a img {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*********************************************************************************************/
+/* NAVEGADOR - ANDROID ***********************************************************************/
+.navgreen {
+    background-color: violet;
+    width: 100.1%;
+    height: auto;
+    margin: -1px;
+}
+
+.navbarborder {
+    border-bottom: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+}
+
+.navgreen-nomove {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.menu-txt {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+.menu-txt:hover {
+    font-family: 'Bebas Neue', cursive;
+    color: violet;
+}
+
+.login-text {
+    margin-left: 0px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 1.5px;
+}
+
+.navbarborder {
+    border-bottom: 1px solid violet;
+    box-shadow: 0px 0px 20px violet;
+}
+
+.conteinernavmob {
+    font-family: 'Bebas Neue', cursive;
+    color: violet;
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    box-shadow: 0px 0px 10px violet;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    width: 100%;
+    a {
+        color: white;
+    }
+    p:hover {
+        color: violet;
+        text-shadow: 0px 0px 10px violet;
+    }
+    img {
+        padding: 0px;
+    }
+}
+
+.btnmenuleft{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

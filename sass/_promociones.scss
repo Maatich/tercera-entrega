@@ -1,0 +1,53 @@
+/*********************************************************************************************/
+/* PROMOCIONES *******************************************************************************/
+/*********************************************************************************************/
+.section-promo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    color: black;
+    width: 100%;
+    height: auto;
+    background-color: #111;
+}
+
+.conteiner-promociones{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    border: 1px solid violet;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px violet;
+    width: 40%;
+    padding: 20px;
+}
+
+.parrafo-promo {
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    flex-flow: row wrap;
+    flex: 4;
+    color: violet;
+}
+
+.section {
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 10px;
+    width: 100%;
+}
+
+.section-off {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
